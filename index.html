@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/home-page.css">
+    <link rel="stylesheet" href="/assets/css/components/_navigator.css">
 
     <title>Spider Man Multiverso</title>
 </head>
@@ -41,7 +42,7 @@
                 <h2>Tobey Maguire</h2>
             </a>
             <a href="./pages/adrew-garfield/spiderman1.html" class="s-card" id="spider-man-02">
-                <img class="s-card__backgroud" src="./assets/img/pic-sm-bg-03.jpg"
+                <img class="s-card__background" src="./assets/img/pic-sm-bg-03.jpg"
                     alt="Imagem de fundo, rua de nova york com ponte no fundo">
                 <img class="s-card__image" src="./assets/img/spider-man-03.png" alt="Homen aranha Andrew jogando teia">
                 <h2>Andrew Garfield</h2>
@@ -54,7 +55,7 @@
             </a>
         </div>
     </section>
-    <div class="controller">
+    <div class="s-controller">
         <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">
             01
         </div>
@@ -64,7 +65,10 @@
         <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
             03
         </div>
+        <div class="s-controller__line"></div>
     </div>
+
+    <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
