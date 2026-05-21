@@ -1,6 +1,4 @@
 
-@import url(../global.css);
-@import url(../reset.css);
 
 .navigator {
     height: 80vh;
@@ -50,8 +48,8 @@
 }
 
 .navigator ul li a:hover,
-.navigator ul li a.active {
-    color: var(--primery-color);
+.navigator ul li a:active {
+    color: var(--primary-color);
     background-color: #ffffff;
 }
 
@@ -59,4 +57,3 @@
     position: absolute;
     top: -20px;
 }
-
