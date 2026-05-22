@@ -3,6 +3,7 @@
 @import url(components/_navigator.css);
 @import url(components/_pills.css);
 @import url(components/_link-button.css);
+@import url(components/_gallery.css);
 
 
 .s-wrapper {
@@ -64,5 +65,10 @@
 
 .s-wrapper .s-main-content__top .s-description .pills {
     margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links ul {
+    display: flex;
+    flex-direction: row;
 }
 
