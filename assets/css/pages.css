@@ -45,9 +45,9 @@
     justify-content: flex-end;
 }
 
-.s-wrapper .s-main-content .s-logo img {
+.s-wrapper .s-main-content__top .s-logo img {
     margin-top: 50px;
-    margin: 0;
+    margin-left: 0;
     margin-bottom: 30px;
 }
 
@@ -70,5 +70,11 @@
 .s-wrapper .s-main-content .s-links ul {
     display: flex;
     flex-direction: row;
+}
+
+.s-spiderman-01-01 {
+    
+    background-image: url('../img/spiderman-tobey/movie-01/background.png');
+    background-size: cover;
 }
 
