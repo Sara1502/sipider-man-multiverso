@@ -31,7 +31,7 @@
 }
 
 .s-wrapper .s-main-content__top {
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -39,7 +39,7 @@
 }
 
 .s-wrapper .s-main-content__bottom {
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
